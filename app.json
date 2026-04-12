@@ -7,6 +7,9 @@
       "output": "static"
     },
     "name": "KonektApp",
-    "slug": "KonektApp"
+    "slug": "KonektApp",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
