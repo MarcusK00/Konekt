@@ -35,12 +35,6 @@ export default function App() {
           onPress={() => router.push("/joinroom")}
         />
 
-        <Button
-          label="Jeg elsker min kæreste"
-          variant="primary"
-        
-        />
-
         <Text className="text-center text-slate-600 text-xs mt-2 tracking-wide">
           No account needed to get started
         </Text>
