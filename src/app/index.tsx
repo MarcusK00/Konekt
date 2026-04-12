@@ -1,31 +1,52 @@
 import { StatusBar } from "expo-status-bar";
-import { Text, View } from "react-native";
+import { Text, View} from "react-native";
+import { useRouter } from "expo-router";
+import Button from "../components/Button";
 
 export default function App() {
+    const router = useRouter();
+
   return (
-    <View className="flex-1 bg-white dark:bg-black items-center justify-center px-8">
-      {/* Heading */}
-      <Text className="text-4xl font-extrabold text-gray-800 dark:text-white mb-3 tracking-tight">
-        🚀 Welcome
-      </Text>
+    <View className="flex-1 bg-[#0a0818] items-center justify-between px-6 pb-12 pt-16">
 
-      {/* Subheading */}
-      <Text className="text-xl dark:text-white text-gray-700 mb-8 text-center leading-relaxed">
-        Build beautiful apps with{" "}
-        <Text className="text-blue-500 font-semibold">
-          Expo (Router) + Uniwind 🔥
+      <View className="flex-1 items-center justify-center gap-1">
+  
+        <Text className="text-6xl font-black text-white tracking-[.18em] pl-4">
+          Konekt
         </Text>
-      </Text>
 
-      {/* Instruction text */}
-      <Text className="text-base text-gray-600 dark:text-white text-center max-w-sm">
-        Start customizing your app by editing{" "}
-        <Text className="font-semibold text-gray-800 dark:text-white">
-          app/index.tsx
+        <Text className="text-center text-slate-400 text-lg tracking-wide leading-7">
+          Chat across{" "}
+          <Text className="text-indigo-300 font-semibold italic" >any language</Text>
+          {",\n"}seamlessly.
         </Text>
-      </Text>
+      </View>
 
-      <StatusBar style="dark" />
+      <View className="w-full gap-3">
+        <Button
+          label="Start a new conversation"
+          variant="primary"
+          onPress={() => router.push("/createroom")}
+        />
+
+        <Button
+          label="Join with a room code"
+          variant="secondary"
+          onPress={() => router.push("/joinroom")}
+        />
+
+        <Button
+          label="Jeg elsker min kæreste"
+          variant="primary"
+        
+        />
+
+        <Text className="text-center text-slate-600 text-xs mt-2 tracking-wide">
+          No account needed to get started
+        </Text>
+      </View>
+
+      <StatusBar style="light" />
     </View>
   );
 }
