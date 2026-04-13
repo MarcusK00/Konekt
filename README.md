@@ -120,7 +120,7 @@ UI is styled with **UniWind** utility classes:
 ![Join Screen](./assets/fonts/readme/joinroom.png)
 
 ### Translation / Chat
-![Chat Example](./assets/fonts/readme/chatroom.png)
+![Chat Example](./assets/fonts/readme/chatroom.PNG)
 
 ---
 
