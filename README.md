@@ -4,6 +4,21 @@ A modern **React Native chat application** built with **Expo**, using **Expo Rou
 
 ---
 
+## 🖼 Screenshots
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Home</b><br/><img src="./assets/fonts/readme/homescreen.png" alt="Home Screen" width="350"/></td>
+    <td align="center"><b>Create</b><br/><img src="./assets/fonts/readme/createroom.png" alt="Create Screen" width="350"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Join</b><br/><img src="./assets/fonts/readme/joinroom.png" alt="Join Screen" width="350"/></td>
+    <td align="center"><b>Translation / Chat</b><br/><img src="./assets/fonts/readme/chatroom.PNG" alt="Chat Example" width="350"/></td>
+  </tr>
+</table>
+
+---
+
 ## ✨ Features
 
 - ⚡ **Real-time messaging** powered by Firebase Realtime Database
@@ -105,22 +120,6 @@ UI is styled with **UniWind** utility classes:
 - consistent spacing/typography/colors
 - rapid iteration with utility-first patterns
 - shared design tokens can be centralized in Tailwind config
-
----
-
-## 🖼 Screenshots
-
-### Home
-![Home Screen](./assets/fonts/readme/homescreen.png)
-
-### Create
-![Create Screen](./assets/fonts/readme/createroom.png)
-
-### Join
-![Join Screen](./assets/fonts/readme/joinroom.png)
-
-### Translation / Chat
-![Chat Example](./assets/fonts/readme/chatroom.PNG)
 
 ---
 
