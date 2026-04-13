@@ -110,19 +110,17 @@ UI is styled with **UniWind** utility classes:
 
 ## 🖼 Screenshots
 
-> Add your screenshots here.
-
 ### Home
-![Home Screen](./assets/readme/homescreen.png)
+![Home Screen](./assets/fonts/readme/homescreen.png)
 
 ### Create
-![Create Screen](./assets/readme/createroom.png)
+![Create Screen](./assets/fonts/readme/createroom.png)
 
 ### Join
-![Join Screen](./assets/readme/joinroom.png)
+![Join Screen](./assets/fonts/readme/joinroom.png)
 
 ### Translation / Chat
-![Chat Example](./assets/readme/chatroom.png)
+![Chat Example](./assets/fonts/readme/chatroom.png)
 
 ---
 
