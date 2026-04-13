@@ -134,7 +134,7 @@ GitHub: [@MarcusK00](https://github.com/MarcusK00)
 
 - [Expo](https://expo.dev/)
 - [Expo Router](https://docs.expo.dev/router/introduction/)
-- [NativeWind](https://www.nativewind.dev/)
+- [UniWind](https://www.uniwind.dev/)
 - [Firebase Realtime Database](https://firebase.google.com/docs/database)
 - [Google Cloud Translation](https://cloud.google.com/translate)
 
